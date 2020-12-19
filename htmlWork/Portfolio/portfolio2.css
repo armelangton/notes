@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:  technic,'IBM Plex Mono', monospace;
+  font-size: 1rem;
+  min-height: 10vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+  }
+#header {
+  display: flex;
+  height: 80px;
+  padding: 0vw 11vw;
+  justify-content:space-between;
+  align-items: center;
+  background: #B29D98;
+}
+a{
+  text-decoration-line: none;
+  color: #F5F5F5;
+  transition: 0.5s;
+}
+.nav-button {
+  height: 28px;
+  width: 72px;
+}
+.project-title .button {
+  height: 38px;
+  width: 49vw;
+  max-width: 200px;
+  margin: auto;
+  font-size: 0.75rem;
+  }
+.project-title .button, .nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F05A69;
+  border-radius: 7px;
+  transition: 0.5s;
+}
+.nav-button:hover, .project-title .button:hover {
+  color: #F05A69;
+  background: #F5F5F5;
+  cursor: pointer;
+}
+.nav-button:hover a, .project-title .button:hover a{
+  color: #F05A69;
+}
+#welcome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  background:  #F5F5F5;
+}
+#welcome h1 {
+  margin: auto;
+  width: 74vw;
+  max-width: 267px;
+  font-size: 2.1rem;
+}
+#welcome .brake {
+  display: block;
+}
+#first-word {
+  color: #F05A69;
+}
+#work {
+  background: #B29D98;
+  padding: 26px 11vw;
+}
+#work #heading {
+  background: #F05A69;
+  border-radius: 7px;
+  height: 60px;
+  width: 74vw;
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  padding: 4px;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#projects-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.project-title div:first-of-type {
+  max-height: 300px;
+  max-width:350px;
+  height: 60vw;
+  width:74vw;
+  margin: 26px;
+  border-radius: 7px;
+  background: #F5F5F5;
+  overflow: hidden;
+}
+.project-title div:first-of-type img {
+  max-height: 300px;
+  max-width:350px;
+  height: 60vw;
+  width:74vw;
+  border-radius: 7px;
+  filter: contrast(80%) brightness(120%);
+  }
+#contact {
+  height: 427px;
+  color: #F5F5F5;
+  padding: 26px 0;
+  background:  #F5F5F5;
+}
+#heading2 {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 10px;
+  height: 80px;
+  width: 74vw;
+  max-width: 350px;
+  border-radius: 7px;
+  background: #272129;
+  font-size: 0.75rem;
+}
+#heading2 h2 {
+  text-align: center;
+}
+#contact-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 26px;
+  }
+.social-media {
+  background: #272129;
+  display: flex;
+  align-items: center;
+  border-radius: 7px;
+  width: 150px;
+  margin-bottom: 45px;
+  height: 60px;
+  padding: 20px;
+  transition: 0.5s;
+}
+.social-media span {
+  margin-left: 10px;
+  font-size: 1rem;
+}
+.social-media a {
+}
+.social-media:hover a {
+  background: #B29D98;
+}
+.social-media:hover {
+  background: #B29D98;
+  color: #272129;
+}
+#portrait {
+  display: flex;
+  justify-content: center;
+}
+#portrait  img{
+  height: 100px;
+  width: 100px;
+  border: 5px solid #272129;
+  border-radius: 50%;
+  transform: scale(1.05);
+ }
+#footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 90px;
+  padding: 20px 60px;
+  background: #272129;
+  color: #F5F5F5;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+@media (min-width: 500px) {
+  #header {
+    justify-content: flex-end;
+    padding: 26px;
+  }
+  .nav-button {
+    margin-left: 30px;
+  }
+}
+@media (min-width: 800px) {
+  #welcome h1{
+    font-size: 2.8rem;
+    max-width: 355px;
+  }
+  #contact-links {
+    flex-direction: row;
+  }
+  .social-media {
+margin: 26px; 
+  }
+}
+
+
+
+
+Previously, I worked in sales, marketing, and operations, I have a degree in communications with a minor in anthroppolgy. However, I have always been passionate about technology. I grew up in Phoenix where I first fell in love with photography. I love taking pictures of the mountains and valleys and and capturing all the elements of the natural beauty around me. I moved to Indiana in 1995 but I didn't begin exploring graphic design until the early 2000's. I had always considered myself a bit of a techy (before that was really a word) but with all the new digital cameras and software coming out, I found myself becoming more and more curious about their capabilities....so as a sales person I found myself spending more and more time in the advertising and promotions department in the office I worked at to see what I could learn. I knew they used some of these products and I was depserate to find out more. Once I got a taste of that, I decided I had to have more. Since then, I have continued to excel in sales while also increasing my technology skills.It's taking me a long time, but I continue to learn a little here and there and I hope to be out of that sales office and into a development position as soon as as possible!</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="contact-us" class="section-padding">
+            <div class="container text-center">
+                <h2 class="mb-60">Get in Touch</h2>
+
+                <!-- Contact Info -->
+      <!--           <div class="row mb-60">
+                    <div class="col-md-8 col-md-offset-2">
+                        <div class="row">
+                            <!-- <div class="col-md-4 col-sm-6 mb-sm-30">
+                                <div class="contact-info">
+                                    <div class="alt-icon-top alt-icon-color">
+                                        <i class="icon-phone"></i>
+                                    </div>
+                                    <p class="lead">+40 (0) 012 345 6789</p>
+                                </div> -->
+                            <!-- </div>
+                            <div class="col-md-6 col-sm-6 mb-sm-30">
+                                <div class="contact-info">
+                                    <div class="alt-icon-top alt-icon-color">
+                                        <i class="icon-map-pin"></i>
+                                    </div>
+                                    <p class="lead">
+                                        Indianapolis<br />
+                                       IN
+                                    </p>
+                                </div>
+                            </div> -->
+                            <!-- div class="col-md-6 col-sm-6 mb-sm-30">
+                                <div class="contact-info">
+                                    <div class="alt-icon-top alt-icon-color">
+                                        <i class="icon-envelope"></i>
+                                    </div>
+                                    <p class="lead">ccharris27@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> --> 
+                <!-- End Contact Info -->
+                <!-- Contact form -->
+                <div class="row">
+                    <div class="col-md-12">
+                        
+
+                    <form action="https://formspree.io/are.daily@gmail.com" method="POST">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" id="name" required="" data-validation-required-message="Please enter your name" name="name"> 
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" id="email" required="" data-validation-required-message="Please enter your email" name="_replyto"> 
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required="" data-validation-required-message="Please leave a message" name="message"></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="text-center">
+                            <div id="success"></div>
+                                <button type="submit" class="btn btn-lg btn-black"><i class="fab fa-paper-plane-o" aria-hidden="true"></i>Send Message</button>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+                <!-- End Contact form -->
